@@ -2,4 +2,5 @@
 .venv/
 .venv.bak/
 
-
+.git/
+__pycache__/
