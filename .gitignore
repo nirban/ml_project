@@ -1,6 +1,8 @@
 # Environments
 .venv/
 .venv.bak/
+.env/
+.artifacts/
 
 .git/
 __pycache__/
