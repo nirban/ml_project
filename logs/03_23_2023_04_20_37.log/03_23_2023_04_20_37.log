@@ -1,0 +1,9 @@
+[2023-03-23 04:20:42,558] 25 root - INFO - Entered the Data Ingestion method
+[2023-03-23 04:20:42,622] 28 root - INFO - Read Dataset as dataframes pandas
+[2023-03-23 04:20:42,665] 33 root - INFO - Train test split intiated
+[2023-03-23 04:20:42,763] 38 root - INFO - Train test split Done and saved
+[2023-03-23 04:20:42,770] 77 root - INFO - Read Train and test data completed
+[2023-03-23 04:20:42,770] 78 root - INFO - Obtaining pre processing object
+[2023-03-23 04:20:42,770] 55 root - INFO - Numerical Columns Standard Scaling Completed
+[2023-03-23 04:20:42,770] 57 root - INFO - Categorical Columns Encoding Completed
+[2023-03-23 04:20:42,802] 91 root - INFO - Applying preprocessing object on training and test data frame 

@@ -6,4 +6,5 @@ scikit-learn
 six
 catboost
 xgboost
+dill
 #-e .
