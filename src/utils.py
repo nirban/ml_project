@@ -3,10 +3,21 @@ import sys
 import dill
 import numpy as np
 import pandas as pd
+import pickle
 from sklearn.metrics import r2_score
 from sklearn.model_selection import GridSearchCV
 from src.exception import CustomException
 
+# load a pickle file
+def load_object(file_path):
+    try:
+        with open(file=file_path, mode="rb") as file_obj:
+            return pickle.load(file_obj)
+            
+    except Exception as e:
+        raise CustomException(e, sys)
+
+# Save a pickle file
 def save_object(file_path, obj):
     try:
         dir_path = os.path.dirname(file_path)
